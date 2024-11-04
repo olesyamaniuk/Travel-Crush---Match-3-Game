@@ -54,19 +54,19 @@
             <a href="/" class="navigation__link">Home</a>
           </li>
           <li class="navigation__item">
-            <a href="/#advantages" class="navigation__link">Game Description</a>
+            <a href="/#about" class="navigation__link">About the Game</a>
           </li>
           <li class="navigation__item">
-            <a href="/#features" class="navigation__link">Unique Features</a>
+            <a href="/#gallery" class="navigation__link">Gallery</a>
+          </li>
+          <li class="navigation__item">
+            <a href="/#features" class="navigation__link">Features</a>
           </li>
           <li class="navigation__item">
             <a href="/#play" class="navigation__link">How to Play</a>
           </li>
           <li class="navigation__item">
-            <a href="/#faq" class="navigation__link">FAQ</a>
-          </li>
-          <li class="navigation__item">
-            <a href="/#gallery" class="navigation__link">Gallery</a>
+            <a href="/#advantages" class="navigation__link">Advantages</a>
           </li>
 
           <li class="navigation__item navigation__item-desk">
@@ -81,12 +81,15 @@
           <button type="button" class="header__icon-button" data-menu-button>
             <img
               class="header__icon header__icon--menu"
-              src="img/Burger-icon.png"
+              src="image/header/stash_burger-classic.png"
               alt=""
             />
-            <svg class="header__icon header__icon--close close">
-              <use href="./img/sprite.svg#icon-cancel"></use>
-            </svg>
+
+            <img
+              class="header__icon header__icon--close close"
+              src="image/header/akar-icons_cross.png"
+              alt=""
+            />
           </button>
         </div>
       </nav>
@@ -103,7 +106,7 @@
             >
               <img
                 class="home__google-button_image"
-                src="./img/hero/Group.png"
+                src="./image/home/Frame 84.png"
                 alt=""
               />
             </a>
@@ -111,37 +114,135 @@
         </div>
       </section>
 
-      <section class="advantages" id="advantages">
-        <h2 class="visually-hidden">Advantages</h2>
+      <section class="about" id="about">
+        <h2 class="visually-hidden">about</h2>
 
-        <div class="advantages__container">
+        <div class="about__container">
+          <img class="about-image" src="image/about/about.png" alt="" />
           <img
-            class="advantages-image"
-            src="img/GameDescription/Secrion-2-Game Description.png"
+            class="about-image-desk"
+            src="image/about/about the game.png"
             alt=""
           />
+        </div>
+      </section>
+
+      <section class="gallery" id="gallery">
+        <div class="gallery-image">
           <img
-            class="advantages-image-desk"
-            src="img/GameDescription/Secrion-2-Game Description (1).png"
+            class="gallery-title"
+            src="/image/gallery/Gallery (1).png"
+            alt="faq"
+          />
+          <div class="gallery__container">
+            <ul class="gallery__list">
+              <li class="gallery__item">
+                <img
+                  class="gallery__image"
+                  src="./image/gallery/Frame 41.png"
+                  alt=""
+                />
+              </li>
+              <li class="gallery__item">
+                <img
+                  class="gallery__image"
+                  src="./image/gallery/Frame 43.png"
+                  alt=""
+                />
+              </li>
+              <li class="gallery__item">
+                <img
+                  class="gallery__image"
+                  src="./image/gallery/Frame 44.png"
+                  alt=""
+                />
+              </li>
+              <li class="gallery__item">
+                <img
+                  class="gallery__image"
+                  src="./image/gallery/Frame 45.png"
+                  alt=""
+                />
+              </li>
+              <li class="gallery__item">
+                <img
+                  class="gallery__image"
+                  src="./image/gallery/Frame 46.png"
+                  alt=""
+                />
+              </li>
+              <li class="gallery__item">
+                <img
+                  class="gallery__image"
+                  src="./image/gallery/Frame 47.png"
+                  alt=""
+                />
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div>
+          <img
+            class="gallery-image-desk"
+            src="image/gallery/gallery.png"
             alt=""
           />
         </div>
       </section>
 
       <section class="features" id="features">
-        <h2 class="visually-hidden">features</h2>
-
-        <div class="features__container">
+        <div>
           <img
             class="features-image"
-            src="img/UniqueFeatures/Secrion-3-Unique Features.png"
+            src="image/features/features.png"
             alt=""
           />
+        </div>
+        <div class="features-image-desk">
           <img
-            class="features-image-desk"
-            src="img/UniqueFeatures/Secrion-3-Unique Features (1).png"
-            alt=""
+            class="features-title"
+            src="/image/features/Features (1).png"
+            alt="faq"
           />
+          <div class="features__container">
+            <ul class="features__list">
+              <li class="features__item">
+                <img
+                  class="features__image"
+                  src="./image/features/Frame 61.png"
+                  alt=""
+                />
+              </li>
+              <li class="features__item">
+                <img
+                  class="features__image"
+                  src="./image/features/Frame 77.png"
+                  alt=""
+                />
+              </li>
+              <li class="features__item">
+                <img
+                  class="features__image"
+                  src="./image/features/Frame 78.png"
+                  alt=""
+                />
+              </li>
+              <li class="features__item">
+                <img
+                  class="features__image"
+                  src="./image/features/Frame 79.png"
+                  alt=""
+                />
+              </li>
+              <li class="features__item">
+                <img
+                  class="features__image"
+                  src="./image/features/Frame 80.png"
+                  alt=""
+                />
+              </li>
+            </ul>
+          </div>
         </div>
       </section>
 
@@ -149,147 +250,70 @@
         <h2 class="visually-hidden">play</h2>
 
         <div class="play__container">
-          <img
-            class="play-image"
-            src="img/HowtoPlay/Secrion-4-How to Play.png"
-            alt=""
-          />
+          <img class="play-image" src="image/play/how to play (1).png" alt="" />
           <img
             class="play-image-desk"
-            src="img/HowtoPlay/Secrion-4-How to Play (1).png"
+            src="image/play/Frame 90 (3).png"
             alt=""
           />
         </div>
       </section>
-    </main>
-    <section class="faq" id="faq">
-      <h2 class="visually-hidden">faq</h2>
-
-      <div class="faq-container">
-        <img class="faq-title" src="/img/faq/Header.png" alt="faq" />
-        <div class="faq-list">
-          <div class="faq-item">
-            <div class="faq-question" onclick="toggleAnswer(this)">
-              <span>Can I play Tile Island offline?</span>
-              <button class="toggle-button">+</button>
-            </div>
-            <div class="faq-answer">
-              Yes, Tile Island can be played offline, though some features may
-              require an internet connection.
-            </div>
-          </div>
-          <div class="faq-item">
-            <div class="faq-question" onclick="toggleAnswer(this)">
-              <span>Is Tile Island suitable for all ages?</span>
-              <button class="toggle-button">+</button>
-            </div>
-            <div class="faq-answer">
-              Yes, it’s suitable for a wide range of players, though please
-              check the content rating for specific details.
-            </div>
-          </div>
-
-          <div class="faq-item">
-            <div class="faq-question" onclick="toggleAnswer(this)">
-              <span>Are there in-app purchases in Tile Island?</span>
-              <button class="toggle-button">+</button>
-            </div>
-            <div class="faq-answer">
-              Yes, optional in-app purchases are available in the game.
-            </div>
-          </div>
-          <div class="faq-item">
-            <div class="faq-question" onclick="toggleAnswer(this)">
-              <span>How do I unlock more levels?</span>
-              <button class="toggle-button">+</button>
-            </div>
-            <div class="faq-answer">
-              Complete each level and special challenges to unlock additional
-              content.
-            </div>
-          </div>
-          <div class="faq-item">
-            <div class="faq-question" onclick="toggleAnswer(this)">
-              <span>Can I play with friends?</span>
-              <button class="toggle-button">+</button>
-            </div>
-            <div class="faq-answer">
-              Look for any multiplayer or leaderboard features that allow
-              friendly competition.
-            </div>
-          </div>
-          <div class="faq-item">
-            <div class="faq-question" onclick="toggleAnswer(this)">
-              <span>What if I’m stuck on a level?</span>
-              <button class="toggle-button">+</button>
-            </div>
-            <div class="faq-answer">
-              Use power-ups or explore tips and strategies online to get through
-              tougher levels.
-            </div>
-          </div>
-          <div class="faq-item">
-            <div class="faq-question" onclick="toggleAnswer(this)">
-              <span>How often is new content added?</span>
-              <button class="toggle-button">+</button>
-            </div>
-            <div class="faq-answer">
-              New levels, events, and features are added regularly to keep the
-              experience fresh.
-            </div>
-          </div>
-          <div class="faq-item">
-            <div class="faq-question" onclick="toggleAnswer(this)">
-              <span>Where can I get support?</span>
-              <button class="toggle-button">+</button>
-            </div>
-            <div class="faq-answer">
-              For any issues, refer to the support information available on the
-              Google Play Store or within the game’s settings.
-            </div>
-          </div>
-          <div class="faq-item">
-            <div class="faq-question" onclick="toggleAnswer(this)">
-              <span>Is Tile Island suitable for all ages?</span>
-              <button class="toggle-button">+</button>
-            </div>
-            <div class="faq-answer">
-              Yes, it’s suitable for a wide range of players, though please
-              check the content rating for specific details.
-            </div>
+      <section class="advantages" id="advantages">
+        <div>
+          <img
+            class="advantages-image"
+            src="image/advantages/advantages.png"
+            alt=""
+          />
+        </div>
+        <div class="advantages-image-desk">
+          <img
+            class="advantages-title"
+            src="./image/advantages/Advantages (1).png"
+            alt="faq"
+          />
+          <div class="advantages__container">
+            <ul class="advantages__list">
+              <li class="advantages__item">
+                <img
+                  class="advantages__image"
+                  src="./image/advantages/Frame 66.png"
+                  alt=""
+                />
+              </li>
+              <li class="advantages__item">
+                <img
+                  class="advantages__image"
+                  src="./image/advantages/Frame 67.png"
+                  alt=""
+                />
+              </li>
+              <li class="advantages__item">
+                <img
+                  class="advantages__image"
+                  src="./image/advantages/Frame 68.png"
+                  alt=""
+                />
+              </li>
+              <li class="advantages__item">
+                <img
+                  class="advantages__image"
+                  src="./image/advantages/Frame 69.png"
+                  alt=""
+                />
+              </li>
+              <li class="advantages__item">
+                <img
+                  class="advantages__image"
+                  src="./image/advantages/Frame 70.png"
+                  alt=""
+                />
+              </li>
+            </ul>
           </div>
         </div>
-      </div>
-    </section>
-
-    <section class="gallery" id="gallery">
-      <img class="faq-title" src="/img/gallery/Header (2).png" alt="faq" />
-      <div class="gallery__container">
-        <ul class="gallery__list">
-          <li class="gallery__item">
-            <img class="gallery__image" src="./img/gallery/img1.png" alt="" />
-          </li>
-          <li class="gallery__item">
-            <img class="gallery__image" src="./img/gallery/img2.png" alt="" />
-          </li>
-          <li class="gallery__item">
-            <img class="gallery__image" src="./img/gallery/img3.png" alt="" />
-          </li>
-          <li class="gallery__item">
-            <img class="gallery__image" src="./img/gallery/img4.png" alt="" />
-          </li>
-          <li class="gallery__item">
-            <img class="gallery__image" src="./img/gallery/img5.png" alt="" />
-          </li>
-          <li class="gallery__item">
-            <img class="gallery__image" src="./img/gallery/img6.png" alt="" />
-          </li>
-          <li class="gallery__item">
-            <img class="gallery__image" src="./img/gallery/img7.png" alt="" />
-          </li>
-        </ul>
-      </div>
-    </section>
+      </section>
+    </main>
 
     <footer class="footer">
       <div class="footer-container">

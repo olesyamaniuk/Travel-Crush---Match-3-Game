@@ -30,17 +30,52 @@
   </head>
 
   <body class="back">
-    <header class="header header-policy-terms">
-      <div class="header-background"></div>
-      <nav class="navigation container nav-policy-terms">
-        <ul class="policy-terms-list nav-policy-terms">
-          <li class="nav-policy-terms-item active">
-            <svg class="header-icon-policy">
-              <use href="./img/sprite.svg#icon-arrow-left"></use>
-            </svg>
-            <a href="/" class="navigation-link">Go Back Home</a>
+    <header class="header">
+      <div class="header__background"></div>
+      <nav class="navigation container">
+        <ul class="navigation__list">
+          <li class="navigation__item">
+            <a href="/" class="navigation__link">Home</a>
+          </li>
+          <li class="navigation__item">
+            <a href="/#about" class="navigation__link">About the Game</a>
+          </li>
+          <li class="navigation__item">
+            <a href="/#gallery" class="navigation__link">Gallery</a>
+          </li>
+          <li class="navigation__item">
+            <a href="/#features" class="navigation__link">Features</a>
+          </li>
+          <li class="navigation__item">
+            <a href="/#play" class="navigation__link">How to Play</a>
+          </li>
+          <li class="navigation__item">
+            <a href="/#advantages" class="navigation__link">Advantages</a>
+          </li>
+
+          <li class="navigation__item navigation__item-desk">
+            <a href="policy.html" class="navigation__link">Privacy Policy</a>
+          </li>
+          <li class="navigation__item navigation__item-desk">
+            <a href="terms.html" class="navigation__link">Terms of Service</a>
           </li>
         </ul>
+
+        <div class="header__button-wrapper">
+          <button type="button" class="header__icon-button" data-menu-button>
+            <img
+              class="header__icon header__icon--menu"
+              src="image/header/stash_burger-classic.png"
+              alt=""
+            />
+
+            <img
+              class="header__icon header__icon--close close"
+              src="image/header/akar-icons_cross.png"
+              alt=""
+            />
+          </button>
+        </div>
       </nav>
     </header>
 
